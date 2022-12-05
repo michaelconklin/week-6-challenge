@@ -2,6 +2,7 @@
     --primary: #756d6b;
     --secondary: #a2bdb5;
     --dark: rgb(53, 52, 52);
+    --light: rgb(255, 255, 255);
 }
 
 body {
@@ -17,3 +18,14 @@ body {
     font-size: 30px;
     font-style: italic;
 }
+
+.card-body {
+    padding: 10px;
+}
+
+.btn {
+    padding: 5px;
+    color: var(--light);
+    background-color: var(--dark);
+}
+
